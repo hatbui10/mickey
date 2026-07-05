@@ -42,7 +42,7 @@ h3 { color: #ff007f; text-shadow: 0 0 10px rgba(255, 0, 127, 0.5); font-size: 1.
 </style>
 </head>
 <body>
-<h2>Lớp</h2>
+<h2>Lớp: MICKEY - L2+3/Thị Phương</h2>
 <div class="class-stats" id="classStats">Sĩ số: 0 | Có mặt: 0 | Vắng: 0</div>
 <div class="class-panel">
 <h3>Danh Sách: MICKEY - L2+3/Thị Phương</h3>
@@ -79,106 +79,281 @@ const defaultStudents = [
     },
     {
         "id": 3,
-        "name": "Trần Bảo Nam",
-        "phone": "0989850687",
-        "status": "present",
-        "note": ""
-    },
-    {
-        "id": 4,
         "name": "Trần Hồ Tuệ Nhi MIC",
         "phone": "0939142870",
         "status": "present",
         "note": ""
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Trần Minh Khoa",
         "phone": "0339830886",
         "status": "present",
         "note": ""
     },
     {
-        "id": 6,
-        "name": "Lê An Nhi (Ri)",
-        "phone": "0797350000",
-        "status": "present",
-        "note": ""
-    },
-    {
-        "id": 7,
+        "id": 5,
         "name": "Phùng Thanh Thảo",
         "phone": "0934668644",
         "status": "present",
         "note": ""
     },
     {
-        "id": 8,
+        "id": 6,
         "name": "Đặng Ngọc Gia Khôi",
         "phone": "0969146280",
         "status": "present",
         "note": ""
     },
     {
-        "id": 9,
+        "id": 7,
         "name": "Đặng Khải An",
         "phone": "0987385591",
         "status": "present",
         "note": ""
     },
     {
-        "id": 10,
-        "name": "Nguyễn Bảo Anh",
-        "phone": "0325670039",
-        "status": "present",
-        "note": ""
-    },
-    {
-        "id": 11,
+        "id": 8,
         "name": "Nguyễn Phương Uyên",
         "phone": "0367701993",
         "status": "present",
         "note": ""
     },
     {
-        "id": 12,
+        "id": 9,
         "name": "Ngô Thị Ngọc Diệp",
         "phone": "0965801726",
         "status": "present",
         "note": ""
     },
     {
-        "id": 13,
+        "id": 10,
         "name": "Nguyễn Minh Khôi",
         "phone": "0948830246",
         "status": "present",
         "note": ""
     },
     {
-        "id": 14,
+        "id": 11,
         "name": "Phạm Quang Anh 1D NQ",
         "phone": "0911898323",
         "status": "present",
         "note": ""
     },
     {
-        "id": 15,
+        "id": 12,
         "name": "Nguyễn Minh Thảo",
         "phone": "0399351432",
         "status": "present",
         "note": ""
     },
     {
+        "id": 13,
+        "name": "Trần Linh Nhi",
+        "phone": "0918063388",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 14,
+        "name": "Đinh Nhã Khanh (Mộc Trà)",
+        "phone": "0986130939",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 15,
+        "name": "Nguyễn An Nguyên",
+        "phone": "0942980106",
+        "status": "present",
+        "note": ""
+    },
+    {
         "id": 16,
-        "name": "Trần Hoàng Nam",
-        "phone": "0978974556",
+        "name": "Nguyễn Chiêu Quân (Zin)",
+        "phone": "0342501993",
         "status": "present",
         "note": ""
     },
     {
         "id": 17,
-        "name": "Trần Linh Nhi",
-        "phone": "0918063388",
+        "name": "Bùi Tuệ Nhi (Xoài)",
+        "phone": "0359053629",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 18,
+        "name": "Phạm Thùy Dương (Bống)",
+        "phone": "0868403689",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 19,
+        "name": "Đặng Thị Phương Anh",
+        "phone": "0947741992",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 20,
+        "name": "Trần Xuân Quang (Sim)",
+        "phone": "0376868888",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 21,
+        "name": "Nguyễn Ngọc Mai",
+        "phone": "0938536538",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 22,
+        "name": "Thành Cát Nhã Uyên",
+        "phone": "0974936890",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 23,
+        "name": "Trương Tuấn Vinh (Dế mèn)",
+        "phone": "0976360567",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 24,
+        "name": "Phạm Đoàn Hoàng Dũng (Bon)",
+        "phone": "0972948663",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 25,
+        "name": "Dương Minh Nhật",
+        "phone": "0972035289",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 26,
+        "name": "Nguyễn Linh Chi",
+        "phone": "0915131860",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 27,
+        "name": "Đinh Ngọc Diệp Anh (Dứa)",
+        "phone": "0399431484",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 28,
+        "name": "Trịnh Phúc Lâm 201",
+        "phone": "90932358828",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 29,
+        "name": "Chu Quỳnh Anh (Thỏ)",
+        "phone": "0915035685",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 30,
+        "name": "Dương Hà Anh",
+        "phone": "0947607055",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 31,
+        "name": "Nguyễn Giản Minh Khôi",
+        "phone": "0989882688",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 32,
+        "name": "Vũ Linh Lan",
+        "phone": "0378017781",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 33,
+        "name": "Nguyễn Minh Khôi",
+        "phone": "0858686086",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 34,
+        "name": "Nguyễn Hà Trâm Anh (Kem)",
+        "phone": "0944000848",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 35,
+        "name": "Nguyễn Hải Phong",
+        "phone": "0971699982",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 36,
+        "name": "Nguyễn Phương Anh",
+        "phone": "0845154444",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 37,
+        "name": "Trịnh Minh Hưng",
+        "phone": "0965660357",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 38,
+        "name": "Nguyễn Phan Thành Nhân",
+        "phone": "0916401111",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 39,
+        "name": "Lê Thanh Trúc",
+        "phone": "0826243948",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 40,
+        "name": "Đặng Đức Trung",
+        "phone": "0977779698",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 41,
+        "name": "Đỗ Bảo Linh",
+        "phone": "0973755730",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 42,
+        "name": "Lê An Nhi (Ri)",
+        "phone": "0797350000",
         "status": "present",
         "note": ""
     }
@@ -191,11 +366,11 @@ window.onload = function() { loadData(); renderStudentList(); renderAbsentList()
 function updateStats() { const total = myClass.students.length; const absent = myClass.students.filter(s => s.status === 'absent').length; const present = total - absent; document.getElementById('classStats').innerText = 'Sĩ số: ' + total + ' | Có mặt: ' + present + ' | Vắng: ' + absent; }
 function addNewStudent() { const nameInput = document.getElementById('newStudentName'); const phoneInput = document.getElementById('newStudentPhone'); const name = nameInput.value.trim(); const phone = phoneInput.value.trim().replace(/\s+/g, '') || 'Chưa có'; if(name === '') { alert('Vui lòng nhập tên!'); return; } const nextId = myClass.students.length > 0 ? Math.max(...myClass.students.map(s => s.id)) + 1 : 1; myClass.students.push({ id: nextId, name: name, phone: phone, status: 'present', note: '' }); saveData(); nameInput.value = ''; phoneInput.value = ''; renderStudentList(); renderAbsentList(); updateStats(); }
 function deleteStudent(id, name) { if(confirm('Bạn có chắc chắn muốn XÓA học sinh ' + name + '?')) { myClass.students = myClass.students.filter(s => s.id !== id); myClass.students.forEach((s, idx) => { s.id = idx + 1; }); saveData(); renderStudentList(); renderAbsentList(); updateStats(); } }
-function renderStudentList() { const container = document.getElementById('studentList'); container.innerHTML = ''; myClass.students.forEach(student => { const card = document.createElement('div'); card.className = 'student-card status-' + student.status; const absentActive = student.status === 'absent' ? 'active' : ''; const presentActive = student.status === 'present' ? 'active' : ''; card.innerHTML = '<div class="student-info-row"><div class="student-meta"><span class="student-name">' + student.id + '. ' + student.name + '</span><span class="student-phone">SĐT: ' + displayPhone(student.phone) + '</span></div><div class="student-actions-right"><button class="btn-call" onclick="callStudent(\'' + student.phone + '\')">📞</button><button class="btn-delete" onclick="deleteStudent(' + student.id + ', \'' + student.name + '\')">🗑️</button></div></div><div class="student-controls-row"><button class="btn-action btn-absent ' + absentActive + '" onclick="updateStatus(' + student.id + ', \'absent\')">Vắng</button><button class="btn-action btn-present ' + presentActive + '" onclick="updateStatus(' + student.id + ', \'present\')">Đi Học</button><select class="note-select" onchange="updateNote(' + student.id + ', this.value)"><option value="" ' + (student.note===''?'selected':'') + '>-- Ghi chú --</option><option value="Không phép" ' + (student.note==='Không phép'?'selected':'') + '>Không phép</option><option value="Có phép" ' + (student.note==='Có phép'?'selected':'') + '>Có phép</option><option value="Muộn" ' + (student.note==='Muộn'?'selected':'') + '>Đi muộn</option><option value="Ốm" ' + (student.note==='Ốm'?'selected':'') + '>Ốm đau</option></select></div>'; container.appendChild(card); }); }
+function renderStudentList() { const container = document.getElementById('studentList'); container.innerHTML = ''; myClass.students.forEach(student => { const card = document.createElement('div'); card.className = 'student-card status-' + student.status; const absentActive = student.status === 'absent' ? 'active' : ''; const presentActive = student.status === 'present' ? 'active' : ''; card.innerHTML = '<div class="student-info-row"><div class="student-meta"><span class="student-name">' + student.id + '. ' + student.name + '</span><span class="student-phone">SĐT: ' + displayPhone(student.phone) + '</span></div><div class="student-actions-right"><button class="btn-call" onclick="callStudent(\'' + student.phone + '\')">📞</button><button class="btn-delete" onclick="deleteStudent(' + student.id + ', \'' + student.name + '\')">🗑️</button></div></div><div class="student-controls-row"><button class="btn-action btn-absent ' + absentActive + '" onclick="updateStatus(' + student.id + ', \'absent\')">Vắng</button><button class="btn-action btn-present ' + presentActive + '" onclick="updateStatus(' + student.id + ', \'present\')">Đi Học</button><select class="note-select" onchange="updateNote(' + student.id + ', this.value)"><option value="" ' + (student.note===''?'selected':'') + '>-- Ghi chú --</option><option value="***" ' + (student.note==='***'?'selected':'') + '>***</option><option value="Đi muộn" ' + (student.note==='Đi muộn' || student.note==='Muộn'?'selected':'') + '>Đi muộn</option><option value="Không nghe máy" ' + (student.note==='Không nghe máy'?'selected':'') + '>Không nghe máy</option><option value="Nghỉ hôm nay" ' + (student.note==='Nghỉ hôm nay'?'selected':'') + '>Nghỉ hôm nay</option><option value="Nghỉ tuần này" ' + (student.note==='Nghỉ tuần này'?'selected':'') + '>Nghỉ tuần này</option><option value="Khi nào đi học sẽ báo lại" ' + (student.note==='Khi nào đi học sẽ báo lại'?'selected':'') + '>Khi nào đi học sẽ báo lại</option><option value="Nghỉ hết tháng 7" ' + (student.note==='Nghỉ hết tháng 7'?'selected':'') + '>Nghỉ hết tháng 7</option><option value="Xin nghỉ hẳn" ' + (student.note==='Xin nghỉ hẳn'?'selected':'') + '>Xin nghỉ hẳn</option><option value="Ốm" ' + (student.note==='Ốm'?'selected':'') + '>Ốm đau</option></select></div>'; container.appendChild(card); }); }
 function updateStatus(id, status) { const student = myClass.students.find(s => s.id === id); student.status = status; saveData(); renderStudentList(); renderAbsentList(); updateStats(); }
 function updateNote(id, value) { const student = myClass.students.find(s => s.id === id); student.note = value; saveData(); renderAbsentList(); }
 function renderAbsentList() { const listContainer = document.getElementById('absentList'); listContainer.innerHTML = ''; const absentStudents = myClass.students.filter(s => s.status === 'absent'); if(absentStudents.length === 0) { listContainer.innerHTML = '<li><em>Chưa có học sinh vắng</em></li>'; return; } absentStudents.forEach(s => { const li = document.createElement('li'); const noteText = s.note ? ' (' + s.note + ')' : ' (Chưa rõ lý do)'; li.innerText = '• ' + s.name + noteText; listContainer.appendChild(li); }); }
-function copyAbsentList() { const total = myClass.students.length; const absentStudents = myClass.students.filter(s => s.status === 'absent'); const absentCount = absentStudents.length; const presentCount = total - absentCount; let text = 'BÁO CÁO ĐIỂM DANH: ' + myClass.name + '\n'; text += 'Sĩ số: ' + total + ' (Có mặt: ' + presentCount + ' | Vắng: ' + absentCount + ')\n-------------------------\nDanh sách học sinh vắng mặt:\n'; if(absentCount === 0) { text += '- Không có học sinh vắng (Lớp đủ).'; } else { absentStudents.forEach((s, idx) => { const note = s.note ? ' (' + s.note + ')' : ''; text += (idx + 1) + '. ' + s.name + note + '\n'; }); } navigator.clipboard.writeText(text).then(() => { alert('Đã copy báo cáo lớp ' + myClass.name + '!'); }).catch(() => { alert('Lỗi copy.'); }); }
+function copyAbsentList() { const total = myClass.students.length; const absentStudents = myClass.students.filter(s => s.status === 'absent'); const absentCount = absentStudents.length; const presentCount = total - absentCount; let text = 'LỚP: ' + myClass.name + '\n'; text += 'Sĩ số: ' + total + ' (Có mặt: ' + presentCount + ' | Vắng: ' + absentCount + ')\n-------------------------\nDanh sách vắng:\n'; if(absentCount === 0) { text += '-Lớp đi học đủ.'; } else { absentStudents.forEach((s, idx) => { const note = s.note ? ' (' + s.note + ')' : ''; text += (idx + 1) + '. ' + s.name + note + '\n'; }); } navigator.clipboard.writeText(text).then(() => { alert('Đã copy báo cáo lớp ' + myClass.name + '!'); }).catch(() => { alert('Lỗi copy.'); }); }
 function callStudent(phone) { if(phone === 'Chưa có') { alert('Chưa có SĐT!'); return; } window.location.href = 'tel:' + phone; }
 </script>
 </body>
